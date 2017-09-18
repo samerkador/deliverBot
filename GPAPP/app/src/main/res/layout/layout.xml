@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/item_button"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="31dp"
+        android:focusable="false"
+        android:scaleType="center"
+        android:onClick="add_item"
+        app:backgroundTint="#f1f128"
+        app:layout_anchor="@id/fab"
+        app:srcCompat="@drawable/ic_add_shopping" />
+
+
+    <TextView
+        android:id="@+id/textView_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/imageView_item"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/price_item" />
+
+    <TextView
+        android:id="@+id/price_item"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_below="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quantity"
+        android:layout_marginEnd="49dp"
+        android:layout_alignEnd="@+id/item_button"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/imageView_item"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginStart="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

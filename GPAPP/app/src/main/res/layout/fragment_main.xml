@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samer.gpapp.mainFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ExpandableListView
+            android:id="@+id/lvExp"
+            android:focusable="true"
+            android:divider="#b5b5b5"
+            android:nestedScrollingEnabled="true"
+            android:dividerHeight="2dp"
+            android:headerDividersEnabled="false"
+            android:layout_height="322dp"
+            android:layout_width="match_parent"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_main"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:padding="5dp"
+            android:scrollbars="none"
+            android:transitionName="@string/transtion" />
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

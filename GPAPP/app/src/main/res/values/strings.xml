@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">DeliverBot</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="array_locations_value">
+        <item></item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+    </string-array>
+    <string-array name="array_locations">
+        <item></item>
+        <item>cell number 3</item>
+        <item>cell number 4</item>
+        <item>cell number 5</item>
+        <item>cell number 7</item>
+        <item>cell number 8</item>
+        <item>cell number 9</item>
+        <item>cell number 10</item>
+        <item>cell number 13</item>
+        <item>cell number 14</item>
+        <item>cell number 15</item>
+        <item>cell number 18</item>
+        <item>cell number 19</item>
+        <item>cell number 20</item>
+        <item>cell number 25</item>
+        <item>cell number 30</item>
+        <item>cell number 35</item>
+    </string-array>
+
+
+    <string name="title_activity_purchase_item">purchase item </string>
+
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="customers_id">0</string>
+    <string name="customers_name">samer</string>
+
+    <string name="transtion">recView</string>
+
+
+</resources>
